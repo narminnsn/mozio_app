@@ -100,9 +100,15 @@ You can test the API using the following endpoints:
 
 - **List Providers**: `GET /providers`
 - **Create New Provider**: `POST /providers`
+- **Get Provider by ID**: `GET /providers/{id}`
+- **Update Provider by ID**: `PUT /providers/{id}`
+- **Delete Provider by ID**: `DELETE /providers/{id}`
 - **List Service Areas**: `GET /service-areas`
 - **Create New Service Area**: `POST /service-areas`
-- **Search Service Areas by Lat/Lng**: `GET /service-areas/search?lat={lat}&lng={lng}`
+- **Get Service Areas by ID**: `GET /service-areas/{id}`
+- **Update Service Areas by ID**: `PUT /service-areas/{id}`
+- **Delete Service Areas by ID**: `DELETE /service-areas/{id}`
+- **Search Service Areas by Lat/Lng**: `GET /service-areas/locations?lat={lat}&lng={lng}`
 
 
 # API Documentation
