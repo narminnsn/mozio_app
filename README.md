@@ -50,7 +50,7 @@ cd mozio_app
 Create a .env file in the root directory with the following content:
 
 - POSTGRES_DB=<db_name>
-- POSTGRES_USER=<dbuser>
+- POSTGRES_USER=<db_user>
 - POSTGRES_PASSWORD=<db_password>
 
 These environment variables are used by Docker Compose to configure the PostgreSQL.
