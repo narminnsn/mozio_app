@@ -42,7 +42,7 @@ This project aims to develop an API for managing service areas of transportation
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your_username/your_repo_name.git
+git clone https://github.com/narminnsn/mozio_app.git
 cd your_repo_name
 ```
 
