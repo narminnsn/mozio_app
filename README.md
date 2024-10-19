@@ -43,7 +43,7 @@ This project aims to develop an API for managing service areas of transportation
 
 ```bash
 git clone https://github.com/narminnsn/mozio_app.git
-cd your_repo_name
+cd mozio_app
 ```
 
 ### 2. Environment Variables
