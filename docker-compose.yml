@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  db:
+    container_name: postgres-mozio-db
+    image: postgres:9.6.6
+    ports:
+      - 5432:5432 # Bind host port 5432 to PostgreSQL port 5432
+    volumes:
+      - ./pgdb:/var/lib/postgresql/data
+    env_file:
+      - .env
+    networks:
+      - mozio_network
+
+
+networks:
+  mozio_network:
+    driver: bridge
+
